@@ -70,8 +70,8 @@ You also have to make sure the opp starts within the bounds of the map which can
 - Make ``sx1: 1.0``
 - Make ``sy1: 1.0``
 
-Changes must also be made within Rviz after launching the simulation. Click "Add" in the bottom left and under the "By display type" tab add a new RobotModel. It should appear in the left sidebar with the other Displays. Expand the dropdown for the RobotModel and set "Description Topic" to ``/opp_robot_description``.
+Changes must also be made within RViz after launching the simulation. Click "Add" in the bottom left and under the "By display type" tab add a new RobotModel. It should appear in the left sidebar with the other Displays. Expand the dropdown for the RobotModel and set "Description Topic" to ``/opp_robot_description``.
 
-Perform similar steps to add a new LaserScan if you wanted to see the LiDAR for the opp. Expand the dropdown for the LaserScan and set Topic to ``/opp_scan``. The "Size (m)" can be changed to 0.1 to match the ego.
+Perform similar steps to add a new LaserScan if you want to see the LiDAR for the opp. Expand the dropdown for the LaserScan and set "Topic" to ``/opp_scan``. The "Size (m)" can be changed to 0.1 to match the ego.
 
 Instead of using ``sim_stanley_avoidance_launch.py`` use ``sim_multi_agent_stanley_avoidance_launch.py``
