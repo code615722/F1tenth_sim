@@ -54,7 +54,7 @@ After that restart Docker using the following command:
 ```
 sudo systemctl restart docker
 ```
-This solution can also be found [here](https://stackoverflow.com/questions/72932940/failed-to-initialize-nvml-unknown-error-in-docker-after-few-hours)
+This solution can also be found [here](https://stackoverflow.com/questions/72932940/failed-to-initialize-nvml-unknown-error-in-docker-after-few-hours).
 
 
 
